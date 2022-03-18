@@ -48,6 +48,7 @@ namespace WindowsFormsApp2
                 }
                 else resultLabel.Text = "Нет населения";
             }
+
         }
 
         private bool textBoxValidate(params TextBox[] textBox)
@@ -69,24 +70,6 @@ namespace WindowsFormsApp2
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

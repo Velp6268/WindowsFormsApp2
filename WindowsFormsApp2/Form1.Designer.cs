@@ -36,9 +36,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.resultLabel = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -49,7 +49,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(184, 20);
             this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -76,7 +75,6 @@
             this.label2.Size = new System.Drawing.Size(160, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Введите Площадь территории";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button1
             // 
@@ -91,7 +89,7 @@
             // resultLabel
             // 
             this.resultLabel.AutoSize = true;
-            this.resultLabel.Location = new System.Drawing.Point(120, 241);
+            this.resultLabel.Location = new System.Drawing.Point(63, 188);
             this.resultLabel.Name = "resultLabel";
             this.resultLabel.Size = new System.Drawing.Size(0, 13);
             this.resultLabel.TabIndex = 7;
@@ -112,11 +110,15 @@
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Вычисление плотности населения";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // errorProvider1
+            // label4
             // 
-            this.errorProvider1.ContainerControl = this;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(231, 104);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(24, 13);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "km²";
             // 
             // label3
             // 
@@ -127,15 +129,9 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "человек/людей";
             // 
-            // label4
+            // errorProvider1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(231, 104);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(24, 13);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "km²";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.errorProvider1.ContainerControl = this;
             // 
             // Form1
             // 
